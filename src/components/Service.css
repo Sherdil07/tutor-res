@@ -1,0 +1,196 @@
+.service-main {
+  background: #fbfbfb;
+}
+.service-card-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  gap: 8%;
+  margin-left: 4%;
+}
+.service-content {
+  width: calc(45% - 1.5%);
+  box-shadow: 0px 16px 40px -6px rgb(190, 218, 202);
+  border-radius: 77px;
+  display: flex;
+  margin-bottom: 7%;
+}
+.service-button-one {
+  border-radius: 35px;
+  padding: 15px 40px;
+  background: #ffffff;
+  font-size: 1em;
+  color: #0f6534;
+  font-family: sans-serif;
+  border: 2px solid #0f6534;
+  cursor: pointer;
+}
+.service-button-two {
+  border-radius: 35px;
+  padding: 15px 40px;
+  background: #0f6534;
+  font-size: 1em;
+  color: aliceblue;
+  font-family: sans-serif;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-left: 28%;
+}
+.service-button-content {
+  margin: 6%;
+  display: flex;
+  gap: 2%;
+}
+.service-card-image {
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 11%;
+}
+.service-card-cont h1 {
+  font-family: sans-serif;
+  font-size: 2.2em;
+
+  text-align: center;
+}
+.service-card-cont p {
+  font-family: sans-serif;
+
+  text-align: -webkit-match-parent;
+  padding: 4%;
+  font-size: 1.2em;
+  padding-top: 1%;
+}
+.service-button-two-tutor {
+  border-radius: 35px;
+  padding: 15px 40px;
+  background: #0f6534;
+  font-size: 1em;
+  color: aliceblue;
+  font-family: sans-serif;
+  border: 2px solid black;
+  margin-left: 28%;
+}
+.service-heading {
+  font-size: 2.2em;
+  font-family: sans-serif;
+  padding-top: 4%;
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .service-button-two {
+    border-radius: 35px;
+    padding: 15px 40px;
+    background: #0f6534;
+    font-size: 1em;
+    color: aliceblue;
+    font-family: sans-serif;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 17%;
+  }
+  .service-button-two-tutor {
+    border-radius: 35px;
+    padding: 15px 40px;
+    background: #0f6534;
+    font-size: 1em;
+    color: aliceblue;
+    font-family: sans-serif;
+    border: 2px solid black;
+    margin-left: 12%;
+  }
+  .service-card-cont p {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 4%;
+    font-size: 1.2em;
+    padding-top: 1%;
+  }
+}
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+  .service-card-cont h1 {
+    margin-left: 0%;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+  }
+  .service-card-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    gap: 13%;
+    margin-left: 0%;
+  }
+  .service-button-two {
+    border-radius: 35px;
+    padding: 15px 40px;
+    background: #0f6534;
+    font-size: 1em;
+    color: aliceblue;
+    font-family: sans-serif;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 0%;
+  }
+  .service-button-two-tutor {
+    border-radius: 35px;
+    padding: 15px 40px;
+    background: #0f6534;
+    font-size: 0.9em;
+    color: aliceblue;
+    font-family: sans-serif;
+    border: 2px solid black;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  .service-card-cont p {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0%;
+    font-size: 1em;
+    padding-top: 0%;
+    margin: 0%;
+  }
+  img.service-image-card {
+    margin-left: 2%;
+  }
+}
+@media only screen and (max-width: 768px)  {
+ 
+  .service-button-two {
+    border-radius: 35px;
+    padding: 15px 40px;
+    background: #0f6534;
+    font-size: 1em;
+    color: aliceblue;
+    font-family: sans-serif;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 20%;
+}
+.service-button-two-tutor {
+  border-radius: 35px;
+  padding: 15px 40px;
+  background: #0f6534;
+  font-size: 1em;
+  color: aliceblue;
+  font-family: sans-serif;
+  border: 2px solid black;
+  margin-left: 14%;
+}
+.service-content {
+  width: calc(45% - 1.5%);
+  box-shadow: 0px 16px 40px -6px rgb(190, 218, 202);
+  border-radius: 77px;
+  display: flex;
+  margin-bottom: 7%;
+  flex-direction: column-reverse;
+}
+.service-card-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  gap: 8%;
+  margin-left: 4%;
+  width: 88%;
+}
+}
