@@ -30,16 +30,16 @@ const [menuOpen ,setMenuOpen]=useState('false')
         <div className="col-9">
          
           <ul className={` header-ul ${menuOpen?"open":""}` }>
-            <li>
+            <li className="header-ul-li">
               <Link to="/about"> AboutUs </Link>
             </li>
-            <li>
+            <li className="header-ul-li">
               <Link to="/services"> Services </Link>
             </li>
-            <li>
+            <li className="header-ul-li">
               <Link to="/reviews"> Reviews </Link>
             </li>
-            <li>
+            <li className="header-ul-li">
               <div className="button-container">
                 <button className="custom-button"> Find a Tutor </button>
               </div>
@@ -49,7 +49,10 @@ const [menuOpen ,setMenuOpen]=useState('false')
             
           </ul>
           
-            <div className="menu" onClick={()=>{
+          
+            
+        </div>
+        <div className="menu" onClick={()=>{
               setMenuOpen(!menuOpen)
             }}>
           
@@ -57,8 +60,6 @@ const [menuOpen ,setMenuOpen]=useState('false')
             <img src={MoblieLogo} alt="" />
           </button>
           
-        </div>
-            
         </div>
       </div>
     </header>

@@ -107,4 +107,11 @@ li a:hover {
         align-items: center;
     }
   }
-  
+  @media only screen and (max-width: 768px){
+    .custom-button-one{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+  }

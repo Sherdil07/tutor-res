@@ -9,7 +9,7 @@ const About = () => {
         <div className="text-content">
           <h1>Empowering minds, one lesson at a time</h1>
           <div className="p-content">
-            <p>
+            <p className="p-content-p">
               Tutors Ivy is dedicated to helping students achieve their academic
               goals. With a team of expert tutors, we provide personalized,
               one-on-one instruction to help students succeed in their

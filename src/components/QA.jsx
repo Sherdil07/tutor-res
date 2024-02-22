@@ -35,11 +35,7 @@ import "./QA.css";
         </div>
         <div className="question-content">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            euismod justo ac leo aliquam, vel vestibulum nisl fermentum. Fusce
-            ullamcorper vehicula mi, et convallis mauris tincidunt ac. In hac
-            habitasse platea dictumst. Nullam hendrerit nisl a ex consectetur,
-            a fermentum ligula semper.
+           
           </p>
         </div>
       </div>
