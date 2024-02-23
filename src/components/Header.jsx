@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 import { useState } from "react";
 
 import LOGO from "../../src/assets/tutor-logo.png";
@@ -9,14 +8,10 @@ import MoblieLogo from "../assets/mobile-icon.png";
 import "./Header.css";
 
 export const Header = () => {
- 
-const [menuOpen ,setMenuOpen]=useState('false')
+  const [menuOpen, setMenuOpen] = useState("false");
 
-  
   return (
     <header className="header">
-      
-
       {/* second header */}
       <div className="main-div-header">
         <div className="col-3">
@@ -28,8 +23,7 @@ const [menuOpen ,setMenuOpen]=useState('false')
         </div>
 
         <div className="col-9">
-         
-          <ul className={` header-ul ${menuOpen?"open":""}` }>
+          <ul className={` header-ul ${menuOpen ? "open" : ""}`}>
             <li className="header-ul-li">
               <Link to="/about"> AboutUs </Link>
             </li>
@@ -44,22 +38,17 @@ const [menuOpen ,setMenuOpen]=useState('false')
                 <button className="custom-button"> Find a Tutor </button>
               </div>
             </li>
-            
-          
-            
           </ul>
-          
-          
-            
         </div>
-        <div className="menu" onClick={()=>{
-              setMenuOpen(!menuOpen)
-            }}>
-          
+        <div
+          className="menu"
+          onClick={() => {
+            setMenuOpen(!menuOpen);
+          }}
+        >
           <button className="menu-button">
             <img className="menu-button-img" src={MoblieLogo} alt="" />
           </button>
-          
         </div>
       </div>
     </header>
