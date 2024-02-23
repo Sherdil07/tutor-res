@@ -154,8 +154,7 @@
     margin-left: 2%;
   }
 }
-@media only screen and (max-width: 768px)  {
- 
+@media only screen and (max-width: 768px) {
   .service-button-two {
     border-radius: 35px;
     padding: 15px 40px;
@@ -166,42 +165,55 @@
     border: 2px solid black;
     cursor: pointer;
     margin-left: 20%;
-}
-.service-button-two-tutor {
-  border-radius: 35px;
-  padding: 15px 40px;
-  background: #0f6534;
-  font-size: 1em;
-  color: aliceblue;
-  font-family: sans-serif;
-  border: 2px solid black;
-  margin-left: 14%;
-}
-.service-content {
-  width: calc(45% - 1.5%);
-  box-shadow: 0px 16px 40px -6px rgb(190, 218, 202);
-  border-radius: 77px;
-  display: flex;
-  margin-bottom: 7%;
-  flex-direction: column-reverse;
-}
-.service-card-main {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0%;
-  gap: 12%;
-  margin-left: 0%;
-  width: 99%;
-  padding-left: 0%;
-  margin-left: 0%;
-}
-.service-main {
-background: none;
-}
-.service-card-cont h1 {
-font-family: sans-serif;
-font-size: 2.2em;
-text-align: -webkit-match-parent;
+  }
+  .service-button-two-tutor {
+    border-radius: 35px;
+    padding: 15px 40px;
+    background: #0f6534;
+    font-size: 1em;
+    color: aliceblue;
+    font-family: sans-serif;
+    border: 2px solid black;
+    margin-left: 14%;
+  }
+  .service-content {
+    width: calc(45% - 1.5%);
+    box-shadow: 0px 16px 40px -6px rgb(190, 218, 202);
+    border-radius: 77px;
+    display: flex;
+    margin-bottom: 7%;
+    flex-direction: column-reverse;
+  }
+  .service-card-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    gap: 12%;
+    margin-left: 0%;
+    width: 99%;
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+  .service-main {
+    background: none;
+  }
+  .service-card-cont h1 {
+    font-family: sans-serif;
+    font-size: 2.2em;
+    text-align: -webkit-match-parent;
+  }
 }
 
+@media only screen and (max-width: 412px) {
+  .service-card-main {
+    display: flex;
+    padding: 5%;
+    width: 195%;
+    padding-left: 0%;
+    margin-left: 7%;
+    flex-direction: column;
+  }
+  img.service-image-card {
+    width: -webkit-fill-available;
+}
 }

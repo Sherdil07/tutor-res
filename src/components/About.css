@@ -5,26 +5,24 @@
   padding-top: 3%;
   font-family: sans-serif;
   line-height: 1.5em;
-  
 }
-.p-content{
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-top: 2%;
-    font-size: 1.6em;
-    font-family: sans-serif;
-    line-height: 1.5em;
+.p-content {
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 2%;
+  font-size: 1.6em;
+  font-family: sans-serif;
+  line-height: 1.5em;
 }
-    
-.img-content{
-    padding: 2%;
-    
+
+.img-content {
+  padding: 2%;
 }
-.about-img{
+.about-img {
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1366px)  {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
   .text-content h1 {
     font-size: 3em;
     margin: auto;
@@ -32,47 +30,28 @@
     padding-top: 3%;
     font-family: sans-serif;
     line-height: 1.5em;
-}
-  .p-content{
- 
+  }
+  .p-content {
     font-size: 2em;
     text-align: justify;
     margin: 0 60px;
-    
-}
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 5%;
-  align-items: center;
-}
-.img-content{
-  padding: 2%;
- 
-}
-.about-img {
-  width: 100%;
-}
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    align-items: center;
+  }
+  .img-content {
+    padding: 2%;
+  }
+  .about-img {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 768px){
-  .text-content h1 {
-    font-size: 1.9em;
-    
-  }
- 
-.img-content{
-  padding: 2%;
- 
-}
-.about-img {
-  width: 100%;
-}
-}
+
 @media only screen and (max-width: 768px) {
   .text-content h1 {
     font-size: 2.2em;
@@ -81,17 +60,37 @@ ul {
     padding-top: 3%;
     font-family: sans-serif;
     line-height: 1.5em;
-}
-.p-content {
-  
+  }
+  .p-content {
     font-size: 1.3em;
     text-align: justify;
     font-family: sans-serif;
     line-height: 1.5em;
     width: 85%;
     margin-left: 4%;
-
+  }
+  .img-content {
+    padding: 2%;
+  }
+  .about-img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 412px){
+  .text-content h1 {
+    font-size: 2.2em;
+    margin: auto;
+    width: 82%;
+    padding-top: 3%;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+.p-content {
+  font-size: 1.7em;
+  text-align: justify;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  width: 85%;
+  margin-left: 4%;
 }
 }
-
-

@@ -137,3 +137,15 @@ li a:hover {
     width: 80%;
   }
 }
+@media only screen and (max-width: 412px){
+  img.menu-button-img {
+    width: 80%;
+}
+
+
+.header-ul-li {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  padding-right: 12%;
+
+}}
