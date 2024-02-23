@@ -137,15 +137,20 @@ li a:hover {
     width: 80%;
   }
 }
-@media only screen and (max-width: 412px){
+@media only screen and (max-width: 430px){
   img.menu-button-img {
     width: 80%;
 }
 
 
 .header-ul-li {
-  font-size: 0.8em;
+  font-size: 1em;
   font-family: sans-serif;
-  padding-right: 12%;
-
+  /* display: flex; */
+  text-align: center;
+  width: 100%;
+  padding: 0%;
+  justify-content: center;
+  padding-right: 5%;
+  padding-top: 3%;
 }}
